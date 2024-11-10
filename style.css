@@ -1,0 +1,81 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #ffffff; /* Neutral background for professionalism */
+}
+
+form {
+    margin: auto;
+    background-color: #f5f5f5; /* Light gray form background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow for professional look */
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Dark navy for professional feel */
+}
+
+fieldset {
+    border: 2px solid #2e2e2e; /* Dark gray border for elegance */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5; /* Light gray for subtlety */
+}
+
+legend {
+    font-weight: bold;
+    color: #2e2e2e; /* Dark gray for legend text */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #444444; /* Dark gray for labels */
+}
+
+input, textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid #333333; /* Dark border for input fields */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #1a73e8; /* Professional dark blue */
+    color: white; /* White for readability */
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1558b0; /* Darker blue on hover */
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #c0c0c0; /* Light gray border */
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#resume-display h2 {
+    color: #333333; /* Dark gray for readability */
+}
